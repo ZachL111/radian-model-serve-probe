@@ -1,0 +1,73 @@
+{
+  "repo": "radian-model-serve-probe",
+  "language": "Haskell",
+  "category": "ML utilities",
+  "goal": "Create a Haskell reference implementation for serve workflows, centered on security rule linting, safe and unsafe fixtures, and remediation hints.",
+  "review_model": {
+    "terms": [
+      "feature drift",
+      "window width",
+      "metric stability",
+      "explainability"
+    ],
+    "lanes": [
+      "ship",
+      "watch",
+      "hold"
+    ],
+    "score": "signal * 2 + slack + confidence - drag * 3",
+    "purpose": "surface the domain-specific cases that need the most careful review"
+  },
+  "cases": [
+    {
+      "name": "baseline",
+      "focus": "feature drift",
+      "signal": 59,
+      "slack": 21,
+      "drag": 20,
+      "confidence": 57,
+      "score": 136,
+      "lane": "watch"
+    },
+    {
+      "name": "stress",
+      "focus": "window width",
+      "signal": 45,
+      "slack": 46,
+      "drag": 8,
+      "confidence": 85,
+      "score": 197,
+      "lane": "ship"
+    },
+    {
+      "name": "edge",
+      "focus": "metric stability",
+      "signal": 66,
+      "slack": 50,
+      "drag": 18,
+      "confidence": 55,
+      "score": 183,
+      "lane": "ship"
+    },
+    {
+      "name": "recovery",
+      "focus": "explainability",
+      "signal": 82,
+      "slack": 48,
+      "drag": 16,
+      "confidence": 60,
+      "score": 224,
+      "lane": "ship"
+    },
+    {
+      "name": "stale",
+      "focus": "feature drift",
+      "signal": 56,
+      "slack": 28,
+      "drag": 12,
+      "confidence": 61,
+      "score": 165,
+      "lane": "ship"
+    }
+  ]
+}
