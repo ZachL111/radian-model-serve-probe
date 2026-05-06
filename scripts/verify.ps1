@@ -69,3 +69,7 @@ if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 
 powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check-radian-model-serve-golden.ps1
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check-radian_model_serve_probe-casebook.ps1
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
