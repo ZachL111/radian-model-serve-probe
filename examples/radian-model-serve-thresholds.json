@@ -1,0 +1,17 @@
+{
+  "repo": "radian-model-serve-probe",
+  "thresholds": {
+    "signal": 3,
+    "slack": 2,
+    "confidence": 1,
+    "drag": 2,
+    "ship": 155,
+    "watch": 100
+  },
+  "terms": [
+    "feature drift",
+    "window width",
+    "metric stability",
+    "explainability"
+  ]
+}

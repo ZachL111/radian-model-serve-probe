@@ -1,0 +1,28 @@
+id,focus,signal,slack,drag,confidence,score,lane
+l001,window width,35,33,6,25,184,ship
+l002,metric stability,35,34,6,55,216,ship
+l003,explainability,35,35,6,85,248,ship
+l004,feature drift,35,36,18,25,166,ship
+l005,window width,35,37,18,55,198,ship
+l006,metric stability,35,38,18,85,230,ship
+l007,explainability,35,39,34,25,140,watch
+l008,feature drift,35,40,34,55,172,ship
+l009,window width,35,41,34,85,204,ship
+l010,metric stability,60,42,6,25,277,ship
+l011,explainability,60,43,6,55,309,ship
+l012,feature drift,60,44,6,85,341,ship
+l013,window width,60,45,18,25,259,ship
+l014,metric stability,60,46,18,55,291,ship
+l015,explainability,60,47,18,85,323,ship
+l016,feature drift,60,48,34,25,233,ship
+l017,window width,60,32,34,55,231,ship
+l018,metric stability,60,33,34,85,263,ship
+l019,explainability,85,34,6,25,336,ship
+l020,feature drift,85,35,6,55,368,ship
+l021,window width,85,36,6,85,400,ship
+l022,metric stability,85,37,18,25,318,ship
+l023,explainability,85,38,18,55,350,ship
+l024,feature drift,85,39,18,85,382,ship
+l025,window width,85,40,34,25,292,ship
+l026,metric stability,85,41,34,55,324,ship
+l027,explainability,85,42,34,85,356,ship
